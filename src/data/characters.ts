@@ -7,6 +7,7 @@ export interface Character {
   glowColor: string;
   story: string;
   ability: string;
+  abilityDesc: string;
   abilityIcon: string;
   stat1: { label: string; value: number };
   stat2: { label: string; value: number };
@@ -23,7 +24,8 @@ export const characters: Character[] = [
     glowColor: "shadow-cyan-500/40",
     story:
       "Артём — тихий парень, который всегда думает наперёд. Он анализирует каждую ситуацию и находит неожиданные решения. Его сила — в терпении и точном расчёте.",
-    ability: "Точный выстрел — пропустить сложный вопрос и вернуться к нему позже без штрафа",
+    ability: "Точный выстрел",
+    abilityDesc: "Пропустить сложный вопрос и вернуться без штрафа",
     abilityIcon: "Target",
     stat1: { label: "Интеллект", value: 90 },
     stat2: { label: "Скорость", value: 60 },
@@ -38,7 +40,8 @@ export const characters: Character[] = [
     glowColor: "shadow-purple-500/40",
     story:
       "Майя обладает редким даром — она чувствует скрытые связи между идеями. Книги открывают ей двери в другие миры. Её магия — это знания, которые она превращает в силу.",
-    ability: "Магический взгляд — подсказка на сложном уровне один раз за сессию",
+    ability: "Магический взгляд",
+    abilityDesc: "Подсказка на сложном уровне один раз за сессию",
     abilityIcon: "Sparkles",
     stat1: { label: "Интеллект", value: 95 },
     stat2: { label: "Скорость", value: 75 },
@@ -53,7 +56,8 @@ export const characters: Character[] = [
     glowColor: "shadow-orange-500/40",
     story:
       "Никита никогда не сдаётся. Каждая неудача делает его сильнее. Он идёт вперёд даже когда всё против него — и именно поэтому всегда побеждает.",
-    ability: "Второй шанс — одна дополнительная попытка на провальном уровне",
+    ability: "Второй шанс",
+    abilityDesc: "Одна дополнительная попытка на провальном уровне",
     abilityIcon: "Shield",
     stat1: { label: "Интеллект", value: 70 },
     stat2: { label: "Скорость", value: 85 },
@@ -68,7 +72,8 @@ export const characters: Character[] = [
     glowColor: "shadow-green-500/40",
     story:
       "Соня действует быстро и незаметно. Она замечает то, что другие упускают, и использует это с умом. Её девиз: знай всё, покажи малое.",
-    ability: "Разведка — видеть количество правильных ответов до выбора",
+    ability: "Разведка",
+    abilityDesc: "Видеть количество правильных ответов до выбора",
     abilityIcon: "Eye",
     stat1: { label: "Интеллект", value: 80 },
     stat2: { label: "Скорость", value: 95 },
